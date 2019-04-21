@@ -7,8 +7,6 @@ Smart Form is a dynamic form builder. You can build, manage and fill your desire
 - Responsive design.
 
 ------------
-[========]
-
 
 #### Create new form
 ![](https://raw.githubusercontent.com/asefsoft/smart-form/master/sample/snapshots/snap2.JPG)
