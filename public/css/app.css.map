@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.less","app.css"],"names":[],"mappings":"AAAA;EACE,2BAAA;ECCD","file":"app.css","sourcesContent":["body{\n  background-color: #ff0000;\n}\n\n",null],"sourceRoot":"/source/"}

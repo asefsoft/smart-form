@@ -1,0 +1,113 @@
+@font-face {
+    font-family:'Glyphicons Halflings';
+    src:url(../fonts/glyphicons-halflings-regular.eot);
+    src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype')
+}
+@font-face {
+    font-family:"YekanNumbers";
+    src:url(../fonts/YekanNumbers-Regular.eot);
+    src:url(../fonts/YekanNumbers-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/YekanNumbers-Regular.woff) format("woff"),url(../fonts/YekanNumbers-Regular.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:700;
+    src:url(../fonts/IRANSansWeb_Bold.eot);
+    src:url(../fonts/IRANSansWeb_Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Bold.woff2) format("woff2"),url(../fonts/IRANSansWeb_Bold.woff) format("woff"),url(../fonts/IRANSansWeb_Bold.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:500;
+    src:url(../fonts/IRANSansWeb_Medium.eot);
+    src:url(../fonts/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Medium.woff2) format("woff2"),url(../fonts/IRANSansWeb_Medium.woff) format("woff"),url(../fonts/IRANSansWeb_Medium.ttf) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:300;
+    src:url(../fonts/IRANSansWeb_Light.eot);
+    src:url(../fonts/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb_Light.woff2) format("woff2"),url(../fonts/IRANSansWeb_Light.woff) format("woff"),url(../fonts/IRANSansWeb_Light.ttf) format("truetype")
+}
+
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:400;
+    src:url(../fonts/IRANSansWeb.eot);
+    src:url(../fonts/IRANSansWeb.eot?#iefix) format("embedded-opentype"),url(../fonts/IRANSansWeb.woff2) format("woff2"),url(../fonts/IRANSansWeb.woff) format("woff"),url(../fonts/IRANSansWeb.ttf) format("truetype")
+}
+
+@font-face {
+    font-family:'FontAwesome';
+    src:url(../fonts/fontawesome-webfont.eot?v=4.5.0);
+    src:url(../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format('embedded-opentype'),url(../fonts/fontawesome-webfont.woff2?v=4.5.0) format('woff2'),url(../fonts/fontawesome-webfont.woff?v=4.5.0) format('woff'),url(../fonts/fontawesome-webfont.ttf?v=4.5.0) format('truetype');
+    font-weight:normal;
+    font-style:normal
+}
+
+body {
+    font-family: IRANSans, tahoma, serif;
+}
+
+.searching {
+    width: 43px;
+    height: 11px;
+    margin: 10px 15px;
+    float: right;
+    background-repeat: no-repeat;
+    background-image: url('/image/searching.gif') ;
+}
+
+.spacer{
+    padding-top: 15px;
+}
+
+.search_options {
+    padding-top: 10px;
+}
+
+#farsisubForm , #farsisubResultTable{
+    font-family: tahoma, arial, sans-serif;
+}
+
+.questionItem {
+    border: 1px solid #dddddd;
+    padding: 10px 0;
+    margin: 25px 0px;
+    border-radius: 4px;
+}
+
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.input-group-unstyled .input-group-addon {
+    border-radius: 4px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.eng_in_rtl_context {
+    direction: ltr;
+    text-align: right;
+}
+
+.questionItem:nth-child(even) {
+    /*background-color: #ebebeb;*/
+}
+
+.questionItem:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+/*.odd {*/
+    /*background-color: #dff6ff;*/
+/*}*/
+
+/*.even {*/
+    /*background-color: #ebf1b4;*/
+/*}*/
